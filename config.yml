@@ -1,3 +1,29 @@
-baseURL: http://example.org/
+baseURL: "https://sinangncgl.github.io"
 languageCode: en-us
-title: My New Hugo Site
+title: Personal Website
+theme: PaperMod
+
+enableEmoji: true
+
+params:
+  author: Sinan Gençoğlu
+  homeInfoParams:
+    Title: "Hey Ho!"
+    Content: >
+      Welcome!
+
+  socialIcons:
+    - name: Github
+      url: "https://github.com/SinanGncgl"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/sinan-gencoglu/"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+
+menu:
+  main:
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
